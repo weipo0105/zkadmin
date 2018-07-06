@@ -29,4 +29,5 @@ class Base extends Controller
             $this->error('用户已登陆，请勿重复登陆！',url('index/index'));
         }
     }
+
 }
